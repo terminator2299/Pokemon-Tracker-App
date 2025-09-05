@@ -1,7 +1,7 @@
 import { LightningElement, api, wire } from 'lwc';
 import {getRecord, getFieldValue} from 'lightning/uiRecordApi';
 import TRAINER_FIELD from '@salesforce/schema/Trainer__c.Name';
-
+#JUSTFORLEARNINGPURPOSES
 const pokemonFields = [TRAINER_FIELD];
 
 export default class Trainerdetailform extends LightningElement {
